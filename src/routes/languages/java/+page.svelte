@@ -1,5 +1,6 @@
 <script>
   import Header from '$lib/Header.svelte';
+  import { buildTagHref } from '$lib/utils/paths';
 
   const project = {
     title: "Java",
@@ -21,7 +22,7 @@
     <div class="tags">
       {#if Array.isArray(value)}
         {#each value as tag}
-          <span class="pill">{tag}</span>
+          <a href={buildTagHref(key, tag)} class="pill">{tag}</a>
         {/each}
       {:else}
         <span class="pill status">{value}</span>

@@ -39,16 +39,28 @@ p {
 }
 
 .pill {
-  padding: 0.8rem 1.2rem;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  margin: 0.25rem;
   border-radius: 20px;
   font-size: 1rem;
   font-weight: 500;
-  background-color: #dbeafe;
+  background-color: #ffe0b2; /* example default */
   color: black;
+  border: 2px solid transparent;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.pill:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
 }
 
 .pill.status {
-  background-color: #a7f3d0;
+  background-color: #b2f5ea;
+  border-color: #319795;
 }
 
 .links {

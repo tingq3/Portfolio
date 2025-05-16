@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
   import Header from '$lib/Header.svelte';
+  import { buildTagHref } from '$lib/utils/paths';
 
   const project = {
     title: "Minifolio",
@@ -32,11 +33,11 @@
   <p>{project.dev}</p>
 
   {#each Object.entries(project.tags) as [key, value]}
-    <h3>{key}</h3>
+  <h3>{key}</h3>
     <div class="tags">
       {#if Array.isArray(value)}
         {#each value as tag}
-          <span class="pill">{tag}</span>
+          <a href={buildTagHref(key, tag)} class="pill">{tag}</a>
         {/each}
       {:else}
         <span class="pill status">{value}</span>

@@ -9,8 +9,8 @@
     description: "A SvelteKit-based content management system powering this very portfolio."
   },
   {
-    name: "Dungeon Game AI",
-    path: "/projects/dungeon-ai",
+    name: "Dungeon Mania",
+    path: "/projects/dungeonmania",
     class: "blue",
     description: "Implemented enemy behavior and goal planning with pathfinding, enemy splitting, and invincibility logic."
   },
@@ -62,4 +62,10 @@
   {/each}
 </div>
 </main>
+
+<style>
+  .card {
+    flex-direction: column;
+  }
+</style>
 
