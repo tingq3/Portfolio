@@ -9,8 +9,89 @@ main {
   padding: 2rem;
 }
 
-.cards {
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+
+.tags {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.pill {
+  padding: 0.8rem 1.2rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #dbeafe;
+  color: black;
+}
+
+.pill.status {
+  background-color: #a7f3d0;
+}
+
+.links {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.links div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.links img {
+  width: 64px;
+  height: 64px;
+}
+
+code {
+  background: #f1f1f1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+main ul, .container ul {
+  padding-left: 1.8rem;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+
+main li, .container li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 0.4rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  flex-wrap: wrap;
   gap: 2rem;
   margin-top: 2rem;
   align-items: flex-start;
@@ -20,12 +101,12 @@ main {
   box-sizing: border-box;
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
   padding: 10px;
   margin: 10px;
-  width: 640px;
+  width: 540px;
   min-height: 100px;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
   transition:
       background-color 0.5s,
@@ -40,13 +121,12 @@ main {
   color: black;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0;
 }
 
-
 .card p {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin-top: 0.25rem;
   line-height: 1.5;
@@ -59,8 +139,8 @@ main {
 }
 
 .card img {
-  width: 48px;
-  height: 48px;
+  width: 64px;
+  height: 64px;
   object-fit: contain;
   flex-shrink: 0;
   margin-top: 0.3rem;
@@ -82,3 +162,6 @@ main {
 .yellow { background-color: #ffe682; }
 .pink { background-color: #eab4ff; }
 .red { background-color: #f46967}
+.green { background-color: #60ff75}
+.purple { background-color: #d533fd}
+.yellow { background-color: #ffff7a}

@@ -2,10 +2,12 @@
     import Header from "$lib/Header.svelte";
 
   const sections = [
-    { name: 'Web Development', class: 'pink', description: 'Frontend and backend web application development.' },
-    { name: 'Data Analysis', class: 'yellow', description: 'Working with data using Python, Pandas, and R.' },
-    { name: 'UI/UX Prototyping', class: 'blue', description: 'Designing user interfaces and interactions using Figma, HTML, and CSS.' },
-    { name: 'Version Control (Git)', class: 'orange', description: 'Managing code versions and team collaboration with Git and GitHub.' }
+    { name: "Design Patterns", class: "blue", description: "Strategy, Factory, Singleton, Composite, and more." },
+  { name: "Test-Driven Development", class: "yellow", description: "Writing tests before code using tools like JUnit and SvelteKit’s test setup." },
+  { name: "Frontend Development", class: "pink", description: "Experience with SvelteKit, React Native, HTML, CSS, and TypeScript." },
+  { name: "Concurrency & C Programming", class: "orange", description: "Using mutex, threads, and handling race conditions in C." },
+  { name: "Game AI & Pathfinding", class: "red", description: "Implemented BFS, A*, and Minimax AI for games and simulations." },
+  { name: "Version Control", class: "green", description: "Proficient with Git, GitHub, branching, and .gitignore best practices." },
   ];
 </script>
 
@@ -25,3 +27,8 @@
   </div>
 </main>
 
+<style>
+  .card {
+    flex-direction: column;
+  }
+</style>

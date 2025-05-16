@@ -10,7 +10,7 @@
   ];
 </script>
 
-<Header path="languages" />
+<Header path="languages" /> 
 
 <main class = "container">
   <h2>Languages</h2>
@@ -26,5 +26,5 @@
       </div>
     </div>
   {/each}
-</div>
+  </div>
 </main>
