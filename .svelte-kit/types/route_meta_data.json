@@ -1,6 +1,11 @@
 {
 	"/": [],
 	"/languages": [],
+	"/languages/c": [],
+	"/languages/javascript": [],
+	"/languages/java": [],
+	"/languages/python": [],
+	"/languages/r": [],
 	"/projects": [],
 	"/projects/minifolio": [],
 	"/skills": []
