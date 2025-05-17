@@ -1,6 +1,5 @@
 <script>
   import Header from '$lib/Header.svelte';
-  import { buildTagHref } from '$lib/utils/paths';
 
   const project = {
     title: "Concurrency",
