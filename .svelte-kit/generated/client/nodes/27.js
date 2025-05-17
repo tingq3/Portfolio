@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/skills/modular-programming/+page.svelte";
+export { default as component } from "../../../../src/routes/skills/game-development/+page.svelte";

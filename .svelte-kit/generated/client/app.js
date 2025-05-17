@@ -34,7 +34,8 @@ export const nodes = [
 	() => import('./nodes/30'),
 	() => import('./nodes/31'),
 	() => import('./nodes/32'),
-	() => import('./nodes/33')
+	() => import('./nodes/33'),
+	() => import('./nodes/34')
 ];
 
 export const server_loads = [];
@@ -65,13 +66,14 @@ export const dictionary = {
 		"/skills/event-driven-architecture": [24],
 		"/skills/frontend": [25],
 		"/skills/full-stack": [26],
-		"/skills/modular-programming": [27],
-		"/skills/object-oriented-programming": [28],
-		"/skills/pathfinding": [29],
-		"/skills/sql": [30],
-		"/skills/test-driven-development": [31],
-		"/skills/type-safety": [32],
-		"/skills/version-control": [33]
+		"/skills/game-development": [27],
+		"/skills/modular-programming": [28],
+		"/skills/object-oriented-programming": [29],
+		"/skills/pathfinding": [30],
+		"/skills/sql": [31],
+		"/skills/test-driven-development": [32],
+		"/skills/type-safety": [33],
+		"/skills/version-control": [34]
 	};
 
 export const hooks = {

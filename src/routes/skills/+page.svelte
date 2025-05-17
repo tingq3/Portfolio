@@ -15,6 +15,7 @@
   { name: "Object Oriented Programming", path: "/skills/object-oriented-programming", class: "orange", description: "Object oriented programming is a data-centric design paradigm that represents software in terms of interactions between objects." },
   { name: "Modular Programming", path: "/skills/modular-programming", class: "blue", description: "Separation of concerns by organizing logic into distinct functions." },
   { name: "Event Driven Architecture", path: "/skills/event-driven-architecture", class: "orange", description: "A software design pattern where applications react to events occurring within a system, rather than relying on direct requests and responses" },
+  { name: "Game Development", path: "/skills/game-development", class: "yellow", description: "The process of creating interactive games, encompassing everything from conceptualizing the game idea to its final release and beyond." },
 ];
 </script>
 
