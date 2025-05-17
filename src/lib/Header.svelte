@@ -13,7 +13,7 @@
   <h1>
     <a href="/" class="header-link">Jack's</a>
     {#if segments.length > 0}
-      <span> / </span>
+      <span class="header-span"> / </span>
     {/if}
 
     {#each segments as segment, i}
@@ -21,7 +21,7 @@
         <a href={buildHref(segments, i)} class="header-link">
           {segment.charAt(0).toUpperCase() + segment.slice(1)}
         </a>
-        <span> / </span>
+        <span class="header-span"> / </span>
       {:else}
         <span class="inactive">
           {segment.charAt(0).toUpperCase() + segment.slice(1)}
@@ -33,6 +33,7 @@
 
 <style>
   .header-link {
+  font-size: 4rem;
   text-decoration: none;
   color: inherit;
 }
@@ -42,7 +43,12 @@
   cursor: pointer;
 }
 
+.header-span {
+  font-size: 4rem;
+}
+
 .inactive {
+  font-size: 4rem;
   color: #555;
   font-weight: 600;
 }

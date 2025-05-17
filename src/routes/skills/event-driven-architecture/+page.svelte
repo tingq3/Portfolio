@@ -1,0 +1,32 @@
+<script>
+  import Header from '$lib/Header.svelte';
+  import { buildTagHref } from '$lib/utils/paths';
+
+  const project = {
+    title: "Event Driven Architecture",
+    description: "Event-Driven Architecture (EDA) is a software design pattern where applications react to events occurring within a system, rather than relying on direct requests and responses.",
+    tags: {
+      Skills: ["Concurrency", "Backend"]
+    }
+  };
+</script>
+
+<Header path="skills/event-driven-architecture" />
+
+<main class="container">
+  <h2>{project.title}</h2>
+  <p>{project.description}</p>
+
+  {#each Object.entries(project.tags) as [key, value]}
+    <h3>{key}</h3>
+    <div class="tags">
+      {#if Array.isArray(value)}
+        {#each value as tag}
+          <a href={buildTagHref(key, tag)} class="pill">{tag}</a>
+        {/each}
+      {:else}
+        <span class="pill status">{value}</span>
+      {/if}
+    </div>
+  {/each}
+</main>

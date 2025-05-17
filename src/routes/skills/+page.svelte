@@ -13,6 +13,8 @@
   { name: "Full stack", path: "/skills/full-stack", class: "yellow", description: "Full stack development is the process of developing both the frontend and the backend of an application." },
   { name: "SQL", path: "/skills/sql", class: "skyblue", description: "SQL (structured query language) is a language designed for efficiently searching databases." },
   { name: "Object Oriented Programming", path: "/skills/object-oriented-programming", class: "orange", description: "Object oriented programming is a data-centric design paradigm that represents software in terms of interactions between objects." },
+  { name: "Modular Programming", path: "/skills/modular-programming", class: "blue", description: "Separation of concerns by organizing logic into distinct functions." },
+  { name: "Event Driven Architecture", path: "/skills/event-driven-architecture", class: "orange", description: "A software design pattern where applications react to events occurring within a system, rather than relying on direct requests and responses" },
 ];
 </script>
 

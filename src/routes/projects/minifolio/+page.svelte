@@ -47,13 +47,13 @@
 
   <div class="links">
     <div>
-      <img src="/icons/github.svg" alt="GitHub" />
+      <img src="/github.png" alt="GitHub" />
       <p><strong>View the code on GitHub</strong><br />
       <a href={project.links.github} target="_blank">Tingq/Minifolio</a></p>
     </div>
 
     <div>
-      <img src="/icons/globe.svg" alt="Docs" />
+      <img src="/globe.png" alt="Docs" />
       <p><strong>Read the documentation</strong><br />
       <a href={project.links.docs} target="_blank">{project.links.docs}</a></p>
     </div>

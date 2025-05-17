@@ -26,7 +26,15 @@ export const nodes = [
 	() => import('./nodes/22'),
 	() => import('./nodes/23'),
 	() => import('./nodes/24'),
-	() => import('./nodes/25')
+	() => import('./nodes/25'),
+	() => import('./nodes/26'),
+	() => import('./nodes/27'),
+	() => import('./nodes/28'),
+	() => import('./nodes/29'),
+	() => import('./nodes/30'),
+	() => import('./nodes/31'),
+	() => import('./nodes/32'),
+	() => import('./nodes/33')
 ];
 
 export const server_loads = [];
@@ -42,20 +50,28 @@ export const dictionary = {
 		"/languages/java": [8],
 		"/languages/python": [10],
 		"/languages/r": [11],
-		"/projects": [12],
-		"/projects/minifolio": [13],
-		"/skills": [14],
-		"/skills/backend": [15],
-		"/skills/concurrency": [16],
-		"/skills/design-patterns": [17],
-		"/skills/frontend": [18],
-		"/skills/full-stack": [19],
-		"/skills/object-oriented-programming": [20],
-		"/skills/pathfinding": [21],
-		"/skills/sql": [22],
-		"/skills/test-driven-development": [23],
-		"/skills/type-safety": [24],
-		"/skills/version-control": [25]
+		"/languages/typescript": [12],
+		"/projects": [13],
+		"/projects/2048": [14],
+		"/projects/agent-search": [15],
+		"/projects/dungeonmania": [16],
+		"/projects/event-system": [17],
+		"/projects/minifolio": [18],
+		"/projects/train-sim": [19],
+		"/skills": [20],
+		"/skills/backend": [21],
+		"/skills/concurrency": [22],
+		"/skills/design-patterns": [23],
+		"/skills/event-driven-architecture": [24],
+		"/skills/frontend": [25],
+		"/skills/full-stack": [26],
+		"/skills/modular-programming": [27],
+		"/skills/object-oriented-programming": [28],
+		"/skills/pathfinding": [29],
+		"/skills/sql": [30],
+		"/skills/test-driven-development": [31],
+		"/skills/type-safety": [32],
+		"/skills/version-control": [33]
 	};
 
 export const hooks = {
