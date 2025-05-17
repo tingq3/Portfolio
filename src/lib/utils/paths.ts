@@ -11,7 +11,7 @@ export function tagToSlug(tag: string): string {
 export function buildTagHref(category: string, tag: string): string {
   const base = {
     Languages: '/languages/',
-    Frameworks: '/skills/',
+    Frameworks: '/frameworks/',
     Skills: '/skills/'
   }[category] ?? '/skills/';
 

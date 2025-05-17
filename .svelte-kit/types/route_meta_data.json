@@ -1,12 +1,26 @@
 {
 	"/": [],
+	"/frameworks": [],
+	"/frameworks/sveltekit": [],
 	"/languages": [],
 	"/languages/c": [],
+	"/languages/html": [],
 	"/languages/javascript": [],
 	"/languages/java": [],
 	"/languages/python": [],
 	"/languages/r": [],
 	"/projects": [],
 	"/projects/minifolio": [],
-	"/skills": []
+	"/skills": [],
+	"/skills/backend": [],
+	"/skills/concurrency": [],
+	"/skills/design-patterns": [],
+	"/skills/frontend": [],
+	"/skills/full-stack": [],
+	"/skills/object-oriented-programming": [],
+	"/skills/pathfinding": [],
+	"/skills/sql": [],
+	"/skills/test-driven-development": [],
+	"/skills/type-safety": [],
+	"/skills/version-control": []
 }

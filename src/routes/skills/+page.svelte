@@ -2,13 +2,18 @@
     import Header from "$lib/Header.svelte";
 
   const sections = [
-    { name: "Design Patterns", path: "/skills/design-patterns", class: "blue", description: "Strategy, Factory, Singleton, Composite, and more." },
-    { name: "Test-Driven Development", path: "/skills/test-driven-development", class: "yellow", description: "Writing tests before code using tools like JUnit and SvelteKit’s test setup." },
-    { name: "Frontend Development", path: "/skills/frontend-development", class: "pink", description: "Experience with SvelteKit, React Native, HTML, CSS, and TypeScript." },
-    { name: "Concurrency & C Programming", path: "/skills/concurrency-c-programming", class: "orange", description: "Using mutex, threads, and handling race conditions in C." },
-    { name: "Game AI & Pathfinding", path: "/skills/game-ai-pathfinding", class: "red", description: "Implemented BFS, A*, and Minimax AI for games and simulations." },
-    { name: "Version Control", path: "/skills/version-control", class: "green", description: "Proficient with Git, GitHub, branching, and .gitignore best practices." }
-  ];
+  { name: "Design Patterns", path: "/skills/design-patterns", class: "blue", description: "Established solutions to common software architecture challenges." },
+  { name: "Test-Driven Development", path: "/skills/test-driven-development", class: "yellow", description: "A development methodology that emphasizes writing tests prior to implementation." },
+  { name: "Frontend Development", path: "/skills/frontend", class: "pink", description: "Development of responsive and interactive user interfaces using modern frameworks." },
+  { name: "Backend Development", path: "/skills/backend", class: "darkgreen", description: "Backend development focuses on implementing business logic for applications." },
+  { name: "Concurrency & C Programming", path: "/skills/concurrency", class: "orange", description: "Implementation of parallel execution and synchronization techniques in C." },
+  { name: "Game AI & Pathfinding", path: "/skills/pathfinding", class: "red", description: "Design of intelligent agents and optimal navigation algorithms for games." },
+  { name: "Version Control", path: "/skills/version-control", class: "green", description: "Management of code revisions and collaboration workflows using Git." },
+  { name: "Type safety", path: "/skills/type-safety", class: "purple", description: "Ensuring correctness through strict adherence to type constraints in code." },
+  { name: "Full stack", path: "/skills/full-stack", class: "yellow", description: "Full stack development is the process of developing both the frontend and the backend of an application." },
+  { name: "SQL", path: "/skills/sql", class: "skyblue", description: "SQL (structured query language) is a language designed for efficiently searching databases." },
+  { name: "Object Oriented Programming", path: "/skills/object-oriented-programming", class: "orange", description: "Object oriented programming is a data-centric design paradigm that represents software in terms of interactions between objects." },
+];
 </script>
 
 <Header path="skills" />

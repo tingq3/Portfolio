@@ -169,11 +169,12 @@ main li, .container li {
   padding: 1rem;
 }
 
-.blue { background-color: #add8ff; }
-.orange { background-color: #ffbfa3; }
-.yellow { background-color: #ffe682; }
-.pink { background-color: #eab4ff; }
-.red { background-color: #f46967}
+.blue { background-color: #add8ff }
+.orange { background-color: #ffbfa3 }
+.yellow { background-color: #ffe682 }
+.pink { background-color: #eab4ff }
+.red { background-color: #f0a09e}
 .green { background-color: #60ff75}
 .purple { background-color: #d533fd}
-.yellow { background-color: #ffff7a}
+.darkgreen { background-color: #4cc260}
+.skyblue { background-color: #5b9fed}

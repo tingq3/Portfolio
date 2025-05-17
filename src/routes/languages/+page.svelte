@@ -6,7 +6,9 @@
     { name: 'JavaScript', path: '/languages/javascript', class: 'pink', description: 'Used for dynamic web applications.', img: '/javascript.png' },
     { name: 'Java', path: '/languages/java', class: 'orange', description: 'Object-oriented programming language for enterprise apps.', img: '/java.png' },
     { name: 'C', path: '/languages/c', class: 'blue', description: 'Low-level language for systems and performance.', img: '/C.png' },
-    { name: 'R', path: '/languages/r', class: 'red', description: 'R is a powerful language for statistical computing and graphics', img: '/R.png' }
+    { name: 'R', path: '/languages/r', class: 'red', description: 'R is a powerful language for statistical computing and graphics', img: '/R.png' },
+    { name: 'HTML', path: '/languages/html', class: 'skyblue', description: 'HTML is the standard markup language used to create web pages', img: '/HTML.png' },
+
   ];
 </script>
 
