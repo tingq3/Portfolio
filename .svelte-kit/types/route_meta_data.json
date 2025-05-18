@@ -20,6 +20,8 @@
 	"/skills": [],
 	"/skills/backend": [],
 	"/skills/concurrency": [],
+	"/skills/data-manipulation": [],
+	"/skills/data-visualization": [],
 	"/skills/design-patterns": [],
 	"/skills/event-driven-architecture": [],
 	"/skills/frontend": [],
@@ -29,6 +31,7 @@
 	"/skills/object-oriented-programming": [],
 	"/skills/pathfinding": [],
 	"/skills/sql": [],
+	"/skills/statistical-analysis": [],
 	"/skills/test-driven-development": [],
 	"/skills/type-safety": [],
 	"/skills/version-control": []

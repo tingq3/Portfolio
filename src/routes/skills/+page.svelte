@@ -16,6 +16,9 @@
   { name: "Modular Programming", path: "/skills/modular-programming", class: "blue", description: "Separation of concerns by organizing logic into distinct functions." },
   { name: "Event Driven Architecture", path: "/skills/event-driven-architecture", class: "orange", description: "A software design pattern where applications react to events occurring within a system, rather than relying on direct requests and responses" },
   { name: "Game Development", path: "/skills/game-development", class: "yellow", description: "The process of creating interactive games, encompassing everything from conceptualizing the game idea to its final release and beyond." },
+  { name: "Data Manipulation", path: "/skills/data-manipulation", class: "red", description: "Transforming, cleaning, organizing, and restructuring raw data into a usable format for analysis and insights." },
+  { name: "Data Visualization", path: "/skills/data-visualization", class: "skyblue", description: "The representation of data through use of common graphics, such as charts, plots, infographics and even animations." },
+  { name: "Statistical Analysis", path: "/skills/statistical analysis", class: "pink", description: "It refers to investigating trends, patterns, and relationships using quantitative data." },
 ];
 </script>
 

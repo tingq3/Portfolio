@@ -35,7 +35,10 @@ export const nodes = [
 	() => import('./nodes/31'),
 	() => import('./nodes/32'),
 	() => import('./nodes/33'),
-	() => import('./nodes/34')
+	() => import('./nodes/34'),
+	() => import('./nodes/35'),
+	() => import('./nodes/36'),
+	() => import('./nodes/37')
 ];
 
 export const server_loads = [];
@@ -62,18 +65,21 @@ export const dictionary = {
 		"/skills": [20],
 		"/skills/backend": [21],
 		"/skills/concurrency": [22],
-		"/skills/design-patterns": [23],
-		"/skills/event-driven-architecture": [24],
-		"/skills/frontend": [25],
-		"/skills/full-stack": [26],
-		"/skills/game-development": [27],
-		"/skills/modular-programming": [28],
-		"/skills/object-oriented-programming": [29],
-		"/skills/pathfinding": [30],
-		"/skills/sql": [31],
-		"/skills/test-driven-development": [32],
-		"/skills/type-safety": [33],
-		"/skills/version-control": [34]
+		"/skills/data-manipulation": [23],
+		"/skills/data-visualization": [24],
+		"/skills/design-patterns": [25],
+		"/skills/event-driven-architecture": [26],
+		"/skills/frontend": [27],
+		"/skills/full-stack": [28],
+		"/skills/game-development": [29],
+		"/skills/modular-programming": [30],
+		"/skills/object-oriented-programming": [31],
+		"/skills/pathfinding": [32],
+		"/skills/sql": [33],
+		"/skills/statistical-analysis": [34],
+		"/skills/test-driven-development": [35],
+		"/skills/type-safety": [36],
+		"/skills/version-control": [37]
 	};
 
 export const hooks = {
