@@ -2,7 +2,7 @@ import { o as object_prototype, a as array_prototype, g as get_descriptor, b as 
 import { U as UNINITIALIZED, H as HYDRATION_ERROR, a as HYDRATION_START, b as HYDRATION_END, r as render, p as push$1, s as setContext, c as pop$1 } from "./index.js";
 import "clsx";
 const BROWSER = false;
-let base = "/Portfolio";
+let base = "";
 let assets = base;
 const app_dir = "_app";
 const initial = { base, assets };
@@ -1729,7 +1729,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "d47xz2"
+  version_hash: "12phyzi"
 };
 async function get_hooks() {
   let handle;

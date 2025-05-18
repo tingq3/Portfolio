@@ -13,7 +13,7 @@ const config = {
       strict: false
     }),
     paths: {
-      base: '/Portfolio'
+      base: ''
     },
     prerender: {
       entries: []
