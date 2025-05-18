@@ -1,0 +1,1 @@
+export { default as component } from "../../../../src/routes/skills/data-visualization/+page.svelte";
