@@ -9,7 +9,7 @@
     dev: "This project is performed on all pull requests using GitHub Actions for continuous integration.",
     tags: {
       Languages: ["JavaScript", "HTML"],
-      Frameworks: ["SvelteKit", "Docker"],
+      Frameworks: ["SvelteKit"],
       Skills: ["Type safety", "Full stack", "Frontend"],
       Status: "Active"
     },
@@ -47,13 +47,13 @@
 
   <div class="links">
     <div>
-      <img src="/github.png" alt="GitHub" />
+      <img src="/Portfolio/github.png" alt="GitHub" />
       <p><strong>View the code on GitHub</strong><br />
       <a href={project.links.github} target="_blank">Tingq/Minifolio</a></p>
     </div>
 
     <div>
-      <img src="/globe.png" alt="Docs" />
+      <img src="/Portfolio/globe.png" alt="Docs" />
       <p><strong>Read the documentation</strong><br />
       <a href={project.links.docs} target="_blank">{project.links.docs}</a></p>
     </div>
