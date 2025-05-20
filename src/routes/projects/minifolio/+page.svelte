@@ -15,7 +15,7 @@
     },
     links: {
       github: "https://github.com/tingq3/Portfolio",
-      docs: "tobedone"
+      gitpage: "https://tingq3.github.io/Portfolio"
     }
   };
 </script>
@@ -53,9 +53,9 @@
     </div>
 
     <div>
-      <img src="/Portfolio/globe.png" alt="Docs" />
-      <p><strong>Read the documentation</strong><br />
-      <a href={project.links.docs} target="_blank">{project.links.docs}</a></p>
+      <img src="/Portfolio/globe.png" alt="Minifolio" />
+      <p><strong>Minifolio Website</strong><br />
+      <a href={project.links.gitpage} target="_blank">{project.links.gitpage}</a></p>
     </div>
   </div>
 </main>

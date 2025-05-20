@@ -16,7 +16,7 @@ function _page($$payload, $$props) {
     },
     links: {
       github: "https://github.com/tingq3/Portfolio",
-      docs: "tobedone"
+      gitpage: "https://tingq3.github.io/Portfolio"
     }
   };
   const each_array = ensure_array_like(Object.entries(project.tags));
@@ -40,7 +40,7 @@ function _page($$payload, $$props) {
     }
     $$payload.out += `<!--]--></div>`;
   }
-  $$payload.out += `<!--]--> <div class="links"><div><img src="/Portfolio/github.png" alt="GitHub"> <p><strong>View the code on GitHub</strong><br> <a${attr("href", project.links.github)} target="_blank">Tingq/Minifolio</a></p></div> <div><img src="/Portfolio/globe.png" alt="Docs"> <p><strong>Read the documentation</strong><br> <a${attr("href", project.links.docs)} target="_blank">${escape_html(project.links.docs)}</a></p></div></div></main>`;
+  $$payload.out += `<!--]--> <div class="links"><div><img src="/Portfolio/github.png" alt="GitHub"> <p><strong>View the code on GitHub</strong><br> <a${attr("href", project.links.github)} target="_blank">Tingq/Minifolio</a></p></div> <div><img src="/Portfolio/globe.png" alt="Minifolio"> <p><strong>Minifolio Website</strong><br> <a${attr("href", project.links.gitpage)} target="_blank">${escape_html(project.links.gitpage)}</a></p></div></div></main>`;
   pop();
 }
 export {
