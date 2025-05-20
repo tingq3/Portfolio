@@ -4,17 +4,17 @@ function _page($$payload) {
   const sections = [
     {
       name: "Projects",
-      path: "/projects",
+      path: "Portfolio/projects",
       class: "blue"
     },
     {
       name: "Languages",
-      path: "/languages",
+      path: "Portfolio/languages",
       class: "yellow"
     },
     {
       name: "Skills",
-      path: "/skills",
+      path: "Portfolio/skills",
       class: "pink"
     }
   ];

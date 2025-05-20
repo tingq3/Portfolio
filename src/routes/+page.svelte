@@ -2,9 +2,9 @@
     import Header from "$lib/Header.svelte";
 
   const sections = [
-    { name: 'Projects', path: '/projects', class: 'blue' },
-    { name: 'Languages', path: '/languages', class: 'yellow' },
-    { name: 'Skills', path: '/skills', class: 'pink' }
+    { name: 'Projects', path: 'Portfolio/projects', class: 'blue' },
+    { name: 'Languages', path: 'Portfolio/languages', class: 'yellow' },
+    { name: 'Skills', path: 'Portfolio/skills', class: 'pink' }
   ];
 </script>
 
