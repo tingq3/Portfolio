@@ -1729,7 +1729,7 @@ const options = {
 		<div class="error">\r
 			<span class="status">` + status + '</span>\r\n			<div class="message">\r\n				<h1>' + message + "</h1>\r\n			</div>\r\n		</div>\r\n	</body>\r\n</html>\r\n"
   },
-  version_hash: "fev8u3"
+  version_hash: "1stpimz"
 };
 async function get_hooks() {
   let handle;
