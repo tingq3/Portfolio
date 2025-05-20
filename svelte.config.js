@@ -8,12 +8,10 @@ const config = {
     adapter: adapter({
       pages: 'build',
       assets: 'build',
-      fallback: 'index.html',
-      precompress: false,
-      strict: false
+      fallback: 'index.null'
     }),
     paths: {
-      base: ''
+      base: '/Portfolio'
     },
     prerender: {
       entries: []
