@@ -4,56 +4,56 @@ function _page($$payload) {
   const sections = [
     {
       name: "Python",
-      path: "/languages/python",
+      path: "/Portfolio/languages/python",
       class: "yellow",
       description: "General-purpose language with simple syntax.",
-      img: "/python.png"
+      img: "/Portfolio/python.png"
     },
     {
       name: "JavaScript",
-      path: "/languages/javascript",
+      path: "/Portfolio/languages/javascript",
       class: "pink",
       description: "Used for dynamic web applications.",
-      img: "/javascript.png"
+      img: "/Portfolio/javascript.png"
     },
     {
       name: "Java",
-      path: "/languages/java",
+      path: "/Portfolio/languages/java",
       class: "orange",
       description: "Object-oriented programming language for enterprise apps.",
-      img: "/java.png"
+      img: "/Portfolio/java.png"
     },
     {
       name: "C",
-      path: "/languages/c",
+      path: "/Portfolio/languages/c",
       class: "blue",
       description: "Low-level language for systems and performance.",
-      img: "/C.png"
+      img: "/Portfolio/C.png"
     },
     {
       name: "R",
-      path: "/languages/r",
+      path: "/Portfolio/languages/r",
       class: "red",
       description: "R is a powerful language for statistical computing and graphics",
-      img: "/R.png"
+      img: "/Portfolio/R.png"
     },
     {
       name: "HTML",
-      path: "/languages/html",
+      path: "/Portfolio/languages/html",
       class: "skyblue",
       description: "HTML is the standard markup language used to create web pages",
-      img: "/HTML.png"
+      img: "/Portfolio/HTML.png"
     },
     {
       name: "TypeScript",
-      path: "/languages/typescript",
+      path: "/Portfolio/languages/typescript",
       class: "green",
       description: "Typescript is designed for developing large applications and transpiles to JavaScript",
-      img: "/typescript.png"
+      img: "/Portfolio/typescript.png"
     }
   ];
   const each_array = ensure_array_like(sections);
-  Header($$payload, { path: "Portfolio/languages" });
+  Header($$payload, { path: "languages" });
   $$payload.out += `<!----> <main class="container"><h2>Languages</h2> <p>These are the programming languages I use regularly.</p> <div class="cards"><!--[-->`;
   for (let $$index = 0, $$length = each_array.length; $$index < $$length; $$index++) {
     let section = each_array[$$index];

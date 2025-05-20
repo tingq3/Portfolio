@@ -4,50 +4,50 @@
   const sections = [
     {
       name: "Minifolio",
-      path: "/projects/minifolio",
+      path: "/Portfolio/projects/minifolio",
       class: "pink",
-      img: "/minifolio.png",
+      img: "/Portfolio/minifolio.png",
       description: "A SvelteKit-based content management system powering this very portfolio."
     },
     {
       name: "Dungeon Mania",
-      path: "/projects/dungeonmania",
+      path: "/Portfolio/projects/dungeonmania",
       class: "blue",
-      img: "/dungeonmania.png",
+      img: "/Portfolio/dungeonmania.png",
       description: "Dungeon Mania is a dungeon crawler game featuring interactive items, craftable gear, and dynamic enemies that can equip and utilize items."
     },
     {
       name: "2048 in C",
-      path: "/projects/2048",
+      path: "/Portfolio/projects/2048",
       class: "orange",
-      img: "/2048.png",
+      img: "/Portfolio/2048.png",
       description: "Recreated the classic 2048 game in C."
     },
     {
       name: "Kahoot Simulation",
-      path: "/projects/event-system",
+      path: "/Portfolio/projects/event-system",
       class: "red",
-      img: "/quiz.png",
+      img: "/Portfolio/quiz.png",
       description: "Simulated topics, producers, and consumers with command-line interaction, partitioning, and load balancing logic."
     },
     {
       name: "Train & Load Simulator",
-      path: "/projects/train-sim",
+      path: "/Portfolio/projects/train-sim",
       class: "purple",
-      img: "/train_sim.png",
+      img: "/Portfolio/train_sim.png",
       description: "A Java simulation of trains and cargo loading with object-oriented refactoring patterns."
     },
     {
       name: "Search Agent 2D",
-      path: "/projects/agent-search",
+      path: "/Portfolio/projects/agent-search",
       class: "yellow",
-      img: "/search_agent.jpg",
+      img: "/Portfolio/search_agent.jpg",
       description: "A text-based search agent that explores a 2D grid using BFS and backtracking, collecting items and avoiding dead ends."
     }
   ];
 </script>
 
-<Header path="Portfolio/projects" />
+<Header path="projects" />
 
 <main class = "container">
   <h2>Projects I've Built</h2>
