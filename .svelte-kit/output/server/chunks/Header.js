@@ -6,7 +6,7 @@ function Header($$payload, $$props) {
   const buildHref = (arr, i) => "/Portfolio/" + arr.slice(0, i + 1).join("/");
   segments = path.split("/").filter(Boolean);
   const each_array = ensure_array_like(segments);
-  $$payload.out += `<header><h1><a href="/" class="header-link svelte-1u6cfue">Jack's</a> `;
+  $$payload.out += `<header><h1><a href="/Portfolio/" class="header-link svelte-1u6cfue">Jack's</a> `;
   if (segments.length > 0) {
     $$payload.out += "<!--[-->";
     $$payload.out += `<span class="header-span svelte-1u6cfue">/</span>`;

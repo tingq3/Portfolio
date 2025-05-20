@@ -11,7 +11,7 @@
 
 <header>
   <h1>
-    <a href="/" class="header-link">Jack's</a>
+    <a href="/Portfolio/" class="header-link">Jack's</a>
     {#if segments.length > 0}
       <span class="header-span"> / </span>
     {/if}
