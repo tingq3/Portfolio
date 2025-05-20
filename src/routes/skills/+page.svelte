@@ -22,7 +22,7 @@
 ];
 </script>
 
-<Header path="skills" />
+<Header path="Portfolio/skills" />
 
 <main class = "container">
   <h2>Technical Skills</h2>

@@ -106,7 +106,7 @@ function _page($$payload) {
     }
   ];
   const each_array = ensure_array_like(sections);
-  Header($$payload, { path: "skills" });
+  Header($$payload, { path: "Portfolio/skills" });
   $$payload.out += `<!----> <main class="container"><h2>Technical Skills</h2> <p>Here are some of my strongest skill areas in computing.</p> <div class="cards"><!--[-->`;
   for (let $$index = 0, $$length = each_array.length; $$index < $$length; $$index++) {
     let section = each_array[$$index];

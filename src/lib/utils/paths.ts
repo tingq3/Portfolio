@@ -10,10 +10,10 @@ export function tagToSlug(tag: string): string {
 // Build full URL based on category and tag
 export function buildTagHref(category: string, tag: string): string {
   const base = {
-    Languages: '/languages/',
-    Frameworks: '/frameworks/',
-    Skills: '/skills/'
-  }[category] ?? '/skills/';
+    Languages: '/Portfolio/languages/',
+    Frameworks: '/Portfolio/frameworks/',
+    Skills: '/Portfolio/skills/'
+  }[category] ?? '/Portfolio/skills/';
 
   return base + tagToSlug(tag);
 }

@@ -53,7 +53,7 @@ function _page($$payload) {
     }
   ];
   const each_array = ensure_array_like(sections);
-  Header($$payload, { path: "languages" });
+  Header($$payload, { path: "Portfolio/languages" });
   $$payload.out += `<!----> <main class="container"><h2>Languages</h2> <p>These are the programming languages I use regularly.</p> <div class="cards"><!--[-->`;
   for (let $$index = 0, $$length = each_array.length; $$index < $$length; $$index++) {
     let section = each_array[$$index];

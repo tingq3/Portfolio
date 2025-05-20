@@ -13,7 +13,7 @@
   ];
 </script>
 
-<Header path="languages" /> 
+<Header path="Portfolio/languages" /> 
 
 <main class = "container">
   <h2>Languages</h2>

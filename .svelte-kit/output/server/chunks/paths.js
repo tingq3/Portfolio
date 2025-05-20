@@ -3,10 +3,10 @@ function tagToSlug(tag) {
 }
 function buildTagHref(category, tag) {
   const base = {
-    Languages: "/languages/",
-    Frameworks: "/frameworks/",
-    Skills: "/skills/"
-  }[category] ?? "/skills/";
+    Languages: "/Portfolio/languages/",
+    Frameworks: "/Portfolio/frameworks/",
+    Skills: "/Portfolio/skills/"
+  }[category] ?? "/Portfolio/skills/";
   return base + tagToSlug(tag);
 }
 export {

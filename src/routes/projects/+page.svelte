@@ -47,7 +47,7 @@
   ];
 </script>
 
-<Header path="projects" />
+<Header path="Portfolio/projects" />
 
 <main class = "container">
   <h2>Projects I've Built</h2>
