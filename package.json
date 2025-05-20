@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
+		"deploy": "npm run build && npx gh-pages -d build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -33,5 +34,5 @@
 		"typescript-eslint": "^8.32.1",
 		"vite": "^6.2.6"
 	},
-	"homepage": "http://jackhui.com"
+	"homepage": "http://tingq3.github.io/Portfolio"
 }
