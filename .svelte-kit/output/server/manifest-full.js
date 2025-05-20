@@ -10,7 +10,7 @@ return {
 	assets: new Set(["2048.png","C.png","dungeonmania.png","favicon.png","github.png","globe.png","HTML.png","java.png","javascript.png","minifolio.png","python.png","quiz.png","R.png","search_agent.jpg","Sveltekit.png","train_sim.png","train_sim_tick_diagram.png","typescript.png"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg"},
 	_: {
-		client: {start:"_app/immutable/entry/start.CzqBHd_8.js",app:"_app/immutable/entry/app.CZ8MI8Wu.js",imports:["_app/immutable/entry/start.CzqBHd_8.js","_app/immutable/chunks/CH-XG22a.js","_app/immutable/chunks/ddMSHIDS.js","_app/immutable/chunks/CWSGiRlO.js","_app/immutable/entry/app.CZ8MI8Wu.js","_app/immutable/chunks/ddMSHIDS.js","_app/immutable/chunks/EZ5IySk8.js","_app/immutable/chunks/Hy_XaCxE.js","_app/immutable/chunks/Cq3EaH61.js","_app/immutable/chunks/CWSGiRlO.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.BwNHlVv2.js",app:"_app/immutable/entry/app.C8W_foJ6.js",imports:["_app/immutable/entry/start.BwNHlVv2.js","_app/immutable/chunks/C5vva_9g.js","_app/immutable/chunks/ddMSHIDS.js","_app/immutable/chunks/CWSGiRlO.js","_app/immutable/entry/app.C8W_foJ6.js","_app/immutable/chunks/ddMSHIDS.js","_app/immutable/chunks/EZ5IySk8.js","_app/immutable/chunks/Hy_XaCxE.js","_app/immutable/chunks/Cq3EaH61.js","_app/immutable/chunks/CWSGiRlO.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
