@@ -3,7 +3,7 @@ function Header($$payload, $$props) {
   push();
   let segments;
   let path = $$props["path"];
-  const buildHref = (arr, i) => "/" + arr.slice(0, i + 1).join("/");
+  const buildHref = (arr, i) => "/Portfolio/" + arr.slice(0, i + 1).join("/");
   segments = path.split("/").filter(Boolean);
   const each_array = ensure_array_like(segments);
   $$payload.out += `<header><h1><a href="/" class="header-link svelte-1u6cfue">Jack's</a> `;
