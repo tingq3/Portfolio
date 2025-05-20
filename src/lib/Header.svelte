@@ -6,7 +6,7 @@
 
   // Build href for each level
   const buildHref = (arr: string[], i: number) =>
-    '/' + arr.slice(0, i + 1).join('/');
+    '/Portfolio/' + arr.slice(0, i + 1).join('/');
 </script>
 
 <header>
