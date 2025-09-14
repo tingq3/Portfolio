@@ -1,1 +1,0 @@
-function r(o){return o.toLowerCase().replace(/&/g,"and").replace(/\+/g,"plus").replace(/\s+/g,"-").replace(/[^\w-]/g,"")}function a(o,e){return({Languages:"/Portfolio/languages/",Frameworks:"/Portfolio/frameworks/",Skills:"/Portfolio/skills/"}[o]??"/Portfolio/skills/")+r(e)}export{a as b};
