@@ -10,8 +10,7 @@ const config = {
       fallback: 'index.html'
     }),
     paths: {
-      base: '',
-      assets: '/Portfolio'
+      base: '/Portfolio',
     },
     prerender: { entries: [] }
   }
