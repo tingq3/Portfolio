@@ -17,13 +17,6 @@
       description: "Dungeon Mania is a dungeon crawler game featuring interactive items, craftable gear, and dynamic enemies that can equip and utilize items."
     },
     {
-      name: "2048 in C",
-      path: "/Portfolio/projects/2048",
-      class: "orange",
-      img: "/Portfolio/2048.png",
-      description: "Recreated the classic 2048 game in C."
-    },
-    {
       name: "Kahoot Simulation",
       path: "/Portfolio/projects/event-system",
       class: "red",
@@ -43,6 +36,13 @@
       class: "yellow",
       img: "/Portfolio/search_agent.jpg",
       description: "A text-based search agent that explores a 2D grid using BFS and backtracking, collecting items and avoiding dead ends."
+    },
+    {
+      name: "F1 RaceHub",
+      path: "/Portfolio/projects/F1pred",
+      class: "pink",
+      img: "/Portfolio/RBCar.png",
+      description: "A web app for predicting F1 race outcomes with leaderboards, scoring, and live standings."
     }
   ];
 </script>

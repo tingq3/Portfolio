@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/languages/python/+page.svelte";
+export { default as component } from "../../../../src/routes/languages/javascript/+page.svelte";

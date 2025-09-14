@@ -45,9 +45,9 @@
 
   <div class="links">
     <div>
-      <img src="/github.png" alt="GitHub" />
+      <img src="/Portfolio/github.png" alt="GitHub" />
       <p><strong>View the code on GitHub</strong><br />
-      <a href={project.links.github} target="_blank">your-user/search-agent</a></p>
+      <a href={project.links.github} target="_blank">tingq3/search-agent</a></p>
     </div>
   </div>
 </main>

@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/skills/test-driven-development/+page.svelte";
+export { default as component } from "../../../../src/routes/skills/statistical-analysis/+page.svelte";

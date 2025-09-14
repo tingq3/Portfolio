@@ -15,7 +15,7 @@
 <Header path="projects/train-sim" />
 
 <main class="container">
-  <img src="/train_sim_tick_diagram.png" alt="Train Simulation Diagram" class="hero-img" />
+  <img src="/Portfolio/train_sim_tick_diagram.png" alt="Train Simulation Diagram" class="hero-img" />
 
   <h2>{project.title}</h2>
   <p>Train & Load Similtar is a project created in <a href=https://www.handbook.unsw.edu.au/undergraduate/courses/2025/COMP2511 target="_blank">UNSW Comp2511 Course</a>

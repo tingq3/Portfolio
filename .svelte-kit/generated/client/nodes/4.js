@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/frameworks/sveltekit/+page.svelte";
+export { default as component } from "../../../../src/routes/frameworks/nextjs/+page.svelte";

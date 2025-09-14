@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/skills/data-visualization/+page.svelte";
+export { default as component } from "../../../../src/routes/skills/data-manipulation/+page.svelte";

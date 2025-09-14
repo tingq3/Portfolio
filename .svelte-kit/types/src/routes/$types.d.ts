@@ -12,13 +12,13 @@ type EnsureDefined<T> = T extends null | undefined ? {} : T;
 type OptionalUnion<U extends Record<string, any>, A extends keyof U = U extends U ? keyof U : never> = U extends unknown ? { [P in Exclude<A, keyof U>]?: never } & U : never;
 export type Snapshot<T = any> = Kit.Snapshot<T>;
 type PageParentData = EnsureDefined<LayoutData>;
-type LayoutRouteId = RouteId | "/" | "/frameworks" | "/frameworks/sveltekit" | "/languages" | "/languages/c" | "/languages/html" | "/languages/java" | "/languages/javascript" | "/languages/python" | "/languages/r" | "/languages/typescript" | "/projects" | "/projects/2048" | "/projects/agent-search" | "/projects/dungeonmania" | "/projects/event-system" | "/projects/minifolio" | "/projects/train-sim" | "/skills" | "/skills/backend" | "/skills/concurrency" | "/skills/data-manipulation" | "/skills/data-visualization" | "/skills/design-patterns" | "/skills/event-driven-architecture" | "/skills/frontend" | "/skills/full-stack" | "/skills/game-development" | "/skills/modular-programming" | "/skills/object-oriented-programming" | "/skills/pathfinding" | "/skills/sql" | "/skills/statistical-analysis" | "/skills/test-driven-development" | "/skills/type-safety" | "/skills/version-control" | null
+type LayoutRouteId = RouteId | "/" | "/frameworks" | "/frameworks/nextjs" | "/frameworks/sveltekit" | "/languages" | "/languages/c" | "/languages/html" | "/languages/java" | "/languages/javascript" | "/languages/python" | "/languages/r" | "/languages/typescript" | "/projects" | "/projects/agent-search" | "/projects/dungeonmania" | "/projects/event-system" | "/projects/F1pred" | "/projects/minifolio" | "/projects/train-sim" | "/skills" | "/skills/backend" | "/skills/concurrency" | "/skills/data-manipulation" | "/skills/data-visualization" | "/skills/design-patterns" | "/skills/event-driven-architecture" | "/skills/frontend" | "/skills/full-stack" | "/skills/game-development" | "/skills/modular-programming" | "/skills/object-oriented-programming" | "/skills/pathfinding" | "/skills/sql" | "/skills/statistical-analysis" | "/skills/test-driven-development" | "/skills/type-safety" | "/skills/version-control" | null
 type LayoutParams = RouteParams & {  }
 type LayoutParentData = EnsureDefined<{}>;
 
 export type PageServerData = null;
 export type PageData = Expand<PageParentData>;
-export type PageProps = { data: PageData }
+export type PageProps = { params: RouteParams; data: PageData }
 export type LayoutServerData = null;
 export type LayoutData = Expand<LayoutParentData>;
-export type LayoutProps = { data: LayoutData; children: import("svelte").Snippet }
+export type LayoutProps = { params: LayoutParams; data: LayoutData; children: import("svelte").Snippet }

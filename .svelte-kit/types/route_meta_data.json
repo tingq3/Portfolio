@@ -1,6 +1,7 @@
 {
 	"/": [],
 	"/frameworks": [],
+	"/frameworks/nextjs": [],
 	"/frameworks/sveltekit": [],
 	"/languages": [],
 	"/languages/c": [],
@@ -11,7 +12,7 @@
 	"/languages/r": [],
 	"/languages/typescript": [],
 	"/projects": [],
-	"/projects/2048": [],
+	"/projects/F1pred": [],
 	"/projects/agent-search": [],
 	"/projects/dungeonmania": [],
 	"/projects/event-system": [],
