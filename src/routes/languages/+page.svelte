@@ -9,6 +9,7 @@
     { name: 'R', path: '/Portfolio/languages/r', class: 'red', description: 'R is a powerful language for statistical computing and graphics', img: '/Portfolio/R.png' },
     { name: 'HTML', path: '/Portfolio/languages/html', class: 'skyblue', description: 'HTML is the standard markup language used to create web pages', img: '/Portfolio/HTML.png' },
     { name: 'TypeScript', path: '/Portfolio/languages/typescript', class: 'green', description: 'Typescript is designed for developing large applications and transpiles to JavaScript', img: '/Portfolio/typescript.png' },
+    { name: 'css', path: '/Portfolio/languages/css', class: 'yellow', description: 'CSS (Cascading Style Sheets) controls the presentation of web pages', img: '/Portfolio/css.png' },
 
   ];
 </script>

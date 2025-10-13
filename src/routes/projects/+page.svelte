@@ -10,6 +10,20 @@
       description: "A SvelteKit-based content management system powering this very portfolio."
     },
     {
+      name: "dreamfolio",
+      path: "/Portfolio/projects/dreamfolio",
+      class: "green",
+      img: "/Portfolio/dreamfolio.jpg",
+      description: "A one page website with great viuslas build with next.js"
+    },
+    {
+      name: "autoflow",
+      path: "/Portfolio/projects/autoflow",
+      class: "purple",
+      img: "/Portfolio/react.png",
+      description: "A demo web-app with a smooth drag-and-drop canvas where users connect actions, AI prompts, and integrations into executable workflows."
+    },
+    {
       name: "Dungeon Mania",
       path: "/Portfolio/projects/dungeonmania",
       class: "blue",
