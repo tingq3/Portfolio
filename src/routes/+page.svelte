@@ -11,6 +11,9 @@
 <Header path="portfolio" />
 
 <main class = "container">
+  
+  <img src="Profilepic.jpg" alt="Jack Portrait" class="profile-img" />
+
   <h2>Jack's Portfolio</h2>
   <p>When it comes to computer science, I have a diverse skill-set...</p>
   <p>Learn more about my abilities by checking out my portfolio.</p>
